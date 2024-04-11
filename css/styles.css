@@ -1,0 +1,56 @@
+/* default */
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/* card */
+/*     background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+ 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); */
+/* header */
+header{
+ display:flex;
+ justify-content: space-evenly;
+}
+/* nav */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem;
+}
+
+
+/* title */
+.title{
+    display:flex;
+    flex-direction: row;
+    gap: .5rem;
+    color: black;
+}
+
+.title h1:nth-child(2){
+    color: #b75858;
+}
+
+
+
+
+/* table styleing */
+table{
+    width:100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: "33%";
+}
